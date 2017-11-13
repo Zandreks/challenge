@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Day4</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+
+    <script src="js/script.js"></script>
+
+    <link rel="stylesheet" href="css/stile.css">
+    <link rel="stylesheet" href="css/media.css">
+
+</head>
+<body>
+<div class="wrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="musicrun">
+                    <h1>Слушайте и загружайте свои любимые треки</h1>
+                    <div class="col-md-8 plever">
+
+                        <audio controls class="play">
+                            <source src="" type="audio/mpeg">
+
+                        </audio>
+                    </div>
+                    <div class="col-md-4">
+                        <form role="form">
+                            <div class="form-group">
+                                <label for="file" class="filebut"><p class="btn btn-info filebut " >Выберите свои треки! </p></label>
+                                <input id="file" type="file" multiple="multiple" name="file[]" style="display: none"/>
+                                <input type="button" value="Загрусить" id="send" class="btn btn-info filebut" onclick="send_musik()">
+                            </div>
+
+
+                        </form>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="eroor"></div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="play-list">
+                    <script>
+                        update_musik()
+                    </script>
+                    <ol>
+
+                    </ol>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 coppy">
+
+                    <p>&copy; Challenge day 4</p>
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>

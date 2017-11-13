@@ -1,0 +1,27 @@
+.wrap{
+    width: 768px;
+    margin: 0 auto;
+}
+header, footer{
+    text-align: center;
+    background: #bbbbbb;
+    padding: 10px;
+}
+h2{
+    margin: 5px 0 ;
+    padding: 0;
+}
+p{
+    font-size: 18px;
+}
+.cont-left{
+    float: left;
+    width: 50%;
+}
+.blok-two{
+    overflow: hidden;
+}
+.cont-right{
+    float: right;
+    width: 50%;
+}

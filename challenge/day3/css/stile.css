@@ -1,0 +1,105 @@
+body{
+    background: #d4493e;
+}
+.form-login{
+    margin-top: 100px;
+    padding: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+
+}
+.form-login h1 {
+    color: #fff;
+    font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
+
+
+.form-group{
+    background: #ffffff;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 18px;
+}
+label{
+    font-weight: normal;
+    font-family: Helvetica,sans-serif;
+}
+.form-control{
+    border-radius: 10px;
+
+}
+.form-control:hover{
+    border: solid #eb9317 1px;
+}
+.form-control:focus{
+    border: solid #eb6416 3px;
+}
+
+.btn{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.coppy{
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.chat{
+    margin-top: 46px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    padding: 46px;
+}
+.panel-chat{
+    margin-top: 20px;
+    overflow: hidden;
+}
+.header h1{
+    color: #fff;
+    font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+
+}
+.chat-windows{
+    background: #ffffff;
+    height: 200px;
+    overflow-y: scroll;
+}
+.btn-mess{
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius:12px ;
+    margin-top: 0;
+}
+
+.coppy a{
+    text-decoration: none;
+    font-size: 20px;
+    color: red;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.name_chat{
+    font-size: 18px;
+    color: #ff0010;
+    margin-bottom: 10px;
+}
+.mes_chat{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.non_chat{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px;
+}

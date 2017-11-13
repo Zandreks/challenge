@@ -1,0 +1,53 @@
+body{
+    background: #111;
+}
+.img-page{
+    margin: 0 auto;
+    text-align: -webkit-center;
+    margin-bottom: 10px;
+}
+.text-page{
+    text-align: justify;
+    font-family: monospace;
+    font-size: 18px;
+}
+.content-page {
+    background: #ffffff;
+    position: relative;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.close{
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    font-size: 28px;
+    font-weight: bold;
+    display: none;
+    cursor: pointer;
+}
+#menu{
+padding: 0;
+}
+#contacts{
+    font-size: 23px;
+    border: 2px solid rgba(17, 17, 17, 0.15);
+    padding: 19px;
+    border-radius: 14px;
+
+}
+.post-immg{
+    margin-bottom: 10px;
+}
+.post{
+    cursor: pointer;
+}
+.coppy{
+    background: #ffffff;
+    border-radius: 10px;
+}
+.coppy p{
+    padding-top: 10px;
+    font-size: 18px;
+}

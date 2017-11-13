@@ -1,0 +1,17 @@
+header {
+    background: #2A4267;
+    color: #ffffff;
+    padding-bottom: 50px;
+}
+.blok-content2{
+    margin-top: 30px;
+}
+.content{
+    padding-bottom: 40px;
+}
+footer{
+    padding: 20px 0;
+    background: #2A4267;
+    color: #ffffff;
+    font-size: 18px;
+}

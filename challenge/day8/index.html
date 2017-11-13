@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Day8</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+          crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/stile.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+<div class="wrap">
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" onclick="updateForum()" href="#">Форум StartNext</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+            </div>
+        </div>
+    </nav>
+    <div class="heeader-img">
+
+    </div>
+    <div class="container">
+        <div class="row" id="closeDiv">
+            <div class="close" onclick="updateForum()">X</div>
+            <div class="col-md-12">
+                <div class="forum-panel">
+                    <div class="col-md-10">
+                       <p> Вопросы пользователей </p>
+                    </div>
+                    <div class="col-md-2">
+                        <button class="btn btn-warning btn-block" onclick="ShowBlok()">Задать вопрос!</button>
+                    </div>
+                </div>
+                <div class="content">
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <footer>
+        <div class="container">
+        <div class="row">
+            <div class="col-md-12 coppy">
+                <p>&copy; Challenge day 8</p>
+            </div>
+        </div>
+        </div>
+    </footer>
+</div>
+<script src = "js/script.js"></script>
+<script>
+    updateForum();
+</script>
+</body>
+</html>

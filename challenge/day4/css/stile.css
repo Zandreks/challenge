@@ -1,0 +1,71 @@
+body{
+    background: #283036;
+}
+h1{
+    color: #ffffff;
+    text-align: center;
+}
+
+
+.musicrun{
+    overflow: hidden;
+}
+.play-list{
+    overflow-y: scroll;
+    max-height: 500px;
+}
+.play-list ol {
+    padding: 0px;
+    margin: 0px;
+    list-style: decimal-leading-zero inside;
+    color: #ccc;
+    border-top: 1px solid #ccc;
+    font-size: 20px;
+}
+.play-list ol li {
+    position: relative;
+    margin: 0px;
+    padding: 9px 2px 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+.play-list ol li a {
+    display: block;
+    padding: 0px 0px 0px 20px;
+    text-decoration: none;
+    color: #aaaaaa;
+}
+.play-list li.playing {
+    color: #aaa;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.3);
+}
+.play-list li.playing a {
+    color: #ffffff;
+}
+.play-list li.playing:before {
+    content: '♬';
+    width: 14px;
+    height: 14px;
+    padding: 3px;
+    line-height: 14px;
+    margin: 0px;
+    position: absolute;
+    left: 30px;
+    top: 9px;
+    color: #ffffff;
+    font-size: 13px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+.coppy{
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+.plever audio{
+    width: 100%;
+}
+#eroor{
+    margin: 5px auto;
+    text-align: center;
+}
